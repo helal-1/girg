@@ -1,0 +1,60 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg,#ff758c,#ff7eb3);
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.box {
+  background: rgba(0,0,0,0.4);
+  padding: 30px;
+  margin: 80px auto;
+  width: 90%;
+  max-width: 420px;
+  border-radius: 25px;
+}
+
+input {
+  padding: 12px;
+  width: 80%;
+  border-radius: 15px;
+  border: none;
+  margin-top: 10px;
+  text-align: center;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px 35px;
+  border: none;
+  border-radius: 25px;
+  background: #ff4d6d;
+  color: white;
+  font-size: 16px;
+}
+
+#content { display: none; }
+
+img {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+
+/* Animation */
+.fade-in {
+  animation: fadeZoom 1.5s ease;
+}
+
+@keyframes fadeZoom {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
